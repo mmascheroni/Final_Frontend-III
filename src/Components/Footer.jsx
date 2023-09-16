@@ -10,10 +10,10 @@ const Footer = () => {
 
 
         <p>
-          <img className='img-footer' src="../assets/ico-whatsapp.png" alt="wsp-ico" />
-          <img className='img-footer' src="../assets/ico-facebook.png" alt="wsp-ico" />
-          <img className='img-footer' src="../assets/ico-instagram.png" alt="wsp-ico" />
-          <img className='img-footer' src="../assets/ico-tiktok.png" alt="wsp-ico" />
+          <img className='img-footer' src="./../../public/assets/images/ico-whatsapp.png" alt="wsp-ico" />
+          <img className='img-footer' src="./../../public/assets/images/ico-facebook.png" alt="wsp-ico" />
+          <img className='img-footer' src="./../../public/assets/images/ico-instagram.png" alt="wsp-ico" />
+          <img className='img-footer' src="./../../public/assets/images/ico-tiktok.png" alt="wsp-ico" />
         </p>
     </footer>
   )

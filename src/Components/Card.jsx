@@ -49,7 +49,7 @@ const Card = ({ name, username, id, dark }) => {
     <div className={`card ${dark}`}>
         {/* En cada card deberan mostrar en name - username y el id */}
         <Link to={`/dentist/${id}`} style={{textAlign:'center'}}>
-          <img src="../assets/doctor.jpg" alt="dentist" />
+          <img src="./../../public/assets/images/doctor.jpg" alt="dentist" />
           <hr />
           {name}
         </Link>
